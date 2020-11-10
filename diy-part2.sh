@@ -11,7 +11,7 @@
 #
 
 # Modify default IP
-sed -i 's/192.168.1.1/192.168.9.1/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.98.1/g' package/base-files/files/bin/config_generate
 
 # Modify the version number
 # sed -i 's/OpenWrt/Leopard build $(date "+%Y.%m.%d") @ OpenWrt/g' package/default-settings/files/zzz-default-settings
